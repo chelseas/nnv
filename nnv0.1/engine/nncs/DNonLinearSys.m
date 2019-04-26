@@ -18,7 +18,7 @@ classdef DNonLinearSys < handle
     
     methods
         % constructor
-        function obj = DNonLinearODE(dim, nI, dynamics_func, Ts)
+        function obj = DNonLinearSys(dim, nI, dynamics_func, Ts)
             % construct DnonLinearODE plant
             % @dim: dimension of the plant
             % @nI: number of input
